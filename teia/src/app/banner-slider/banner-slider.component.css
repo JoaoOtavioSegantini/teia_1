@@ -1,0 +1,41 @@
+.banner img {
+  width: 295px;
+  height: 295px;
+}
+
+.banner {
+  margin-top: 20rem;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.content p {
+  margin: 0 4rem;
+}
+
+.content p.main  {
+  color: #1C214A;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.content p.title {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 55rem;
+}
+
+.content p.description {
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 52rem;
+}
