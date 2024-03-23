@@ -1,7 +1,7 @@
 <div class="card">
   <div class="album">
-    <span>Album 1</span>
-    <img src="assets/img/img.svg" alt="" srcset="">
+    <span>Album {{ album.albumId }}</span>
+    <img src="{{ album.thumbnailUrl }}" alt="" srcset="">
   </div>
-  <p>accusamus beatae ad facilis cum similique qui sunt</p>
+  <p>{{ album.title }}</p>
 </div>

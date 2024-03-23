@@ -41,7 +41,7 @@ RUN npm install -g @angular/cli
 WORKDIR /home/node/app
 
 # Copy the rest of the source files into the image.
-# COPY . .
+COPY . .
 
 # Expose the port that the application listens on.
 EXPOSE 4200

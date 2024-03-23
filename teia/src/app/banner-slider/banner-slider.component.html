@@ -1,11 +1,37 @@
-<div class="banner">
-  <img src="assets/img/feature_1.svg" alt="">
-  <div class="content">
-    <p class="main">Título</p>
-    <p class="title">Lorem ipsum dolor sit amet consectetur. Quis sed sed augue mi nunc nunc. Pellentesque neque lacinia
-      nisi.</p>
-    <p class="description">Lorem ipsum dolor sit amet consectetur. At dis sit faucibus sollicitudin platea risus nisi
-      tellus. Dictum ultricies dui risus convallis ligula. Tristique mauris egestas mauris iaculis. Erat iaculis
-      nascetur est consequat amet ante quam diam.</p>
-  </div>
-</div>
+<owl-carousel-o [options]="customOptions">
+  <ng-template carouselSlide>
+    <div class="banner">
+      <img src="assets/img/feature_1.svg" alt="">
+      <div class="content">
+        <p class="main">Título</p>
+        <p class="title">Lorem ipsum dolor sit amet consectetur. Quis sed sed augue mi nunc nunc. Pellentesque neque
+          lacinia
+          nisi.</p>
+        <p class="description">Lorem ipsum dolor sit amet consectetur. At dis sit faucibus sollicitudin platea risus
+          nisi
+          tellus. Dictum ultricies dui risus convallis ligula. Tristique mauris egestas mauris iaculis. Erat iaculis
+          nascetur est consequat amet ante quam diam.</p>
+      </div>
+    </div>
+  </ng-template>
+  <ng-template carouselSlide>
+    <div class="banner">
+      <img src="assets/img/feature_2.svg" alt="">
+      <div class="content">
+        <p class="main">Título</p>
+        <p class="title">Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+        <p class="description">Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+      </div>
+    </div>
+  </ng-template>
+  <ng-template carouselSlide>
+    <div class="banner">
+      <img src="assets/img/feature_3.svg" alt="">
+      <div class="content">
+        <p class="main">Título</p>
+        <p class="title">Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+        <p class="description">Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis meugia. Namgna non ligula vestibulum eleifend. Nulla varius volutpat turpis sed lacinia. Nam egnisi. Proin vitae facilisis nisi, ac posuere leo.</p>
+      </div>
+    </div>
+  </ng-template>
+</owl-carousel-o>

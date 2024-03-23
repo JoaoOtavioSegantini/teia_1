@@ -1,3 +1,5 @@
 <div class="card-container">
-  <app-card />
+  <div *ngFor="let album of content">
+    <app-card [album]="album" />
+  </div>
 </div>

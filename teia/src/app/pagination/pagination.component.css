@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+button {
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  height: 40px;
+  width: 40px;
+  background-color: #EEBA91;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button.active {
+  background-color:#E87316;
+}
+
+button:hover {
+  border: none;
+  background-color: #E87316;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  button {
+    height: 35px;
+    width: 35px;
+  }
+}

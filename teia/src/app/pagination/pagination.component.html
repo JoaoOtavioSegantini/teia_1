@@ -1,0 +1,7 @@
+<div class="wrapper">
+  <button [ngClass]="{'hidden': page < 2}" (click)="handlePreviusPageClick()"><</button>
+  <div *ngFor="let page of pagination" >
+      <button (click)="handlePageClick(page)">{{ page }}</button>
+  </div>
+  <button [ngClass]="{'hidden': page == total_pages}" (click)="handleNextPageClick()">></button>
+</div>

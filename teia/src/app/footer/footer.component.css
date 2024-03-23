@@ -1,0 +1,31 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #1c214a;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  height: 16rem;
+  margin-top: 5rem;
+}
+
+footer span {
+  font-size: 25px;
+}
+
+footer .social {
+  margin: 1rem auto;
+}
+
+footer .social img:nth-child(2) {
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+@media (max-width: 500px) {
+  footer span {
+    font-size: 15px;
+  }
+}

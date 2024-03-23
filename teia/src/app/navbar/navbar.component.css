@@ -32,3 +32,16 @@ nav img {
   cursor: pointer;
 
 }
+
+@media (max-width: 500px) {
+  nav .title {
+    font-size: 8px;
+  }
+  nav .nav-itens {
+    font-size: 8px;
+  }
+  nav .user img {
+    width: 2rem;
+    height: 2rem;
+  }
+}

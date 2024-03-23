@@ -4,4 +4,11 @@
   gap: 5rem;
   justify-content: space-evenly;
   margin-top: 25rem;
+  /* margin-left: 20rem; */
+}
+
+@media (max-width: 500px) {
+  .card-container {
+     margin-top: 10rem;
+  }
 }

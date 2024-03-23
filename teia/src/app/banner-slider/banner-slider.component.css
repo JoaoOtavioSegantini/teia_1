@@ -39,3 +39,16 @@
   font-weight: 400;
   max-width: 52rem;
 }
+
+@media (max-width: 500px) {
+  .banner img {
+    height: 150px;
+    width: 150px;
+    margin: 2.5rem auto;
+  }
+  .banner {
+    display: block;
+    margin-top: 10rem;
+  }
+
+}
